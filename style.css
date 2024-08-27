@@ -20,3 +20,12 @@ button {
   padding: 0 10px;
   font-weight: bold;
 }
+
+li a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+li a:hover {
+  text-decoration: underline;
+}

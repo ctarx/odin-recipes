@@ -15,7 +15,8 @@ The purpose of this project is to apply fundamental HTML concepts, including cre
 
 ## Technologies Used
 
-- **HTML**: The structure of the website is built using semantic HTML elements.
+- **HTML**: The structure of the website is built using HTML elements.
+- **CSS**: Basic styling with CSS.
 
 ## How to Use
 

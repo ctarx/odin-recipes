@@ -1,0 +1,22 @@
+* {
+  line-height: 1.5;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: silver;
+}
+img {
+  width: 600px;
+  height: auto;
+}
+
+h1 {
+  color: darkred;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-weight: bold;
+}

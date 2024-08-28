@@ -15,17 +15,31 @@ h1 {
   color: darkred;
 }
 
-button {
+.button {
+  background-color: gray;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
   text-transform: uppercase;
+  border: solid 1px;
   padding: 0 10px;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
 }
 
 li a {
-  text-decoration: none;
   color: darkblue;
+  text-decoration: none;
 }
 
 li a:hover {
   text-decoration: underline;
+}
+
+li a:focus {
+  border: dotted red 1px;
 }

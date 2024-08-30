@@ -1,45 +1,93 @@
 * {
   line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: Verdana, sans-serif;
-  background-color: silver;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
 }
+
+.container {
+  background-color: #fff;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 20px 40px;
+}
+
+.menu-item a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #8a2be2;
+}
+
+.menu-item a:hover {
+  text-decoration-color: darkslateblue;
+  border-bottom: #8b0000 2px solid;
+}
+.menu-item a:focus {
+  border: dotted red 1px;
+}
+
+.img-container {
+  text-align: center;
+  margin: 10px;
+}
+
 img {
-  width: 600px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
+  border: solid 1px #ccc;
+  border-radius: 8px;
 }
 
 h1 {
-  color: darkred;
+  color: #8b0000;
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description,
+.ingredients,
+.steps {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.section-title {
+  color: #8b0000;
+  font-size: 26px;
 }
 
 .button {
-  background-color: gray;
+  background-color: #8b0000;
   text-decoration: none;
   color: white;
   display: inline-block;
   text-transform: uppercase;
-  border: solid 1px;
-  padding: 0 10px;
-  font-weight: 400;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
-}
-
-li a {
-  color: darkblue;
-  text-decoration: none;
-}
-
-li a:hover {
-  text-decoration: underline;
-}
-
-li a:focus {
-  border: dotted red 1px;
+  background-color: #fff;
+  color: #8b0000;
+  outline: 2px solid #8b0000;
 }

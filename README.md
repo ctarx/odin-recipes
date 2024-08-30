@@ -23,3 +23,7 @@ The purpose of this project is to apply fundamental HTML concepts, including cre
 1. Clone this repository to your local machine using:
    ```bash
    git clone https://github.com/yourusername/recipes.git
+
+## Update
+
+After completing additional course modules, I updated the style.css file with new classes and improved styling.
